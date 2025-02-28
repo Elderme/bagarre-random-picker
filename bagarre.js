@@ -20,7 +20,7 @@ async function initialize()
     clearObjectiveDisplay();
     document.querySelector("#opponent_title").innerHTML = "Premier combattant";
 
-    const response = await fetch('./json_files/example.json');
+    const response = await fetch('./json_files/longue.json');
     if (!response.ok) {
         throw new Error(`HTTP error ${response.status}`);
     }
@@ -70,6 +70,7 @@ function getObjective()
     }
     else if (objective["type"] == "shared")
     {
+        document.querySelector("#opponent_title").innerHTML = "Pour les deux combattants";
         objective_title_div.innerHTML = "Même objectif pour les deux combattants : " + objective["name"];
     }
     else

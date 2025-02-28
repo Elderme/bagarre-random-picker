@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Winden",
+        "description": "",
+        "type": "objective"
+    },
+    {
+        "name": "Durchwechseln, zucken",
+        "description": "douche-vaisselle !",
+        "type": "objective"
+    },
+    {
+        "name": "Maximum 3 pas",
+        "description": "Pas plus de 3 pas après le premier liage.",
+        "type": "constraint"
+    },
+    {
+        "name": "Pas de longue pointe",
+        "description": "",
+        "type": "constraint"
+    },
+    {
+        "name": "Entrée en lutte",
+        "description": "",
+        "type": "objective"
+    },
+    {
+        "name": "Demi-épée",
+        "description": "",
+        "type": "objective"
+    },
+    {
+        "name": "Désarmement",
+        "description": "",
+        "type": "objective"
+    },
+    {
+        "name": "Premier sang",
+        "description": "Fin du sparring dès la première touche",
+        "type": "shared"
+    }
+]
