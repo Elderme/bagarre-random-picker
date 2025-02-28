@@ -1,0 +1,35 @@
+[
+    {
+        "name": "objective_1",
+        "description": "My first objective",
+        "type": "objective",
+        "do_not_match_with": ["objective_1", "constraint_2"]
+    },
+    {
+        "name": "objective_2",
+        "description": "Another objective",
+        "type": "objective",
+        "only_match_with": ["objective_3", "constraint_1"]
+    },
+    {
+        "name": "objective_3",
+        "description": "Yet another objective",
+        "type": "objective"
+    },
+    {
+        "name": "constraint_1",
+        "description": "A constraint",
+        "type": "constraint"
+    },
+    {
+        "name": "constraint_2",
+        "description": "Another funny constraint",
+        "type": "constraint",
+        "do_not_match_with": ["objective_1"]
+    },
+    {
+        "name": "shared",
+        "description": "Same context for both opponents.",
+        "type": "shared"
+    }
+]
