@@ -71,7 +71,7 @@ function getObjective()
     else if (objective["type"] == "shared")
     {
         document.querySelector("#opponent_title").innerHTML = "Pour les deux combattants";
-        objective_title_div.innerHTML = "<span class='objective_type'>Même objectif pour les deux combattants&nbsp</span><span class='objective_name'>" + objective["name"] + "</span>";
+        objective_title_div.innerHTML = "<span class='objective_type'>Objectif partagé&nbsp</span><span class='objective_name'>" + objective["name"] + "</span>";
     }
     else
     {
