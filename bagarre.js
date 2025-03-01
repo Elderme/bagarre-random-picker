@@ -80,7 +80,8 @@ function getObjective()
 
     let objective_description_div = document.querySelector("#objective_description");
     objective_description_div.style.display = "flex";
-    objective_description_div.innerHTML = objective["description"];
+
+    objective_description_div.innerHTML = "description" in objective ? objective["description"] : "";
 
     document.querySelector("#get_objective_button").style.display = "none";
     document.querySelector("#ok_button").style.display = "flex";
