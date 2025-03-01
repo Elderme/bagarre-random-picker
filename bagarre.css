@@ -31,9 +31,8 @@ h2
 
 h3
 {
-    border: 1.5px solid #370052;
-    border-radius: 5px;
-    background-color: #370052;
+    border: 1px solid #370052;
+    border-radius: 6px;
     padding: 0;
 }
 
@@ -46,7 +45,6 @@ h3
 
 .objective_name
 {
-    background-color: white;
     color: #370052;
     padding: 8px;
 }
@@ -55,14 +53,13 @@ h3
 button {
     background-image: linear-gradient(150deg, #370052, #6c00a1);
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     color: #ffffed;
     width: 200px;
     margin-top: 24px;
     padding: 15px;
-    text-align: center;
     font-size: 1.2em;
-  }
+}
 
 button:hover {
     background-image: linear-gradient(150deg, #570083, #ab00ff);
