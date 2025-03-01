@@ -59,19 +59,19 @@ function getObjective()
     objectives.push(objective);
 
     let objective_title_div = document.querySelector("#objective_title");
-    objective_title_div.style.display = "block";
+    objective_title_div.style.display = "flex";
     if (objective["type"] == "objective")
     {
-        objective_title_div.innerHTML = "Objectif : " + objective["name"];
+        objective_title_div.innerHTML = "<span class='objective_type'>Objectif&nbsp</span><span class='objective_name'>" + objective["name"] + "</span>";
     }
     else if (objective["type"] == "constraint")
     {
-        objective_title_div.innerHTML = "Contrainte : " + objective["name"];
+        objective_title_div.innerHTML = "<span class='objective_type'>Contrainte&nbsp</span><span class='objective_name'>" + objective["name"] + "</span>";
     }
     else if (objective["type"] == "shared")
     {
         document.querySelector("#opponent_title").innerHTML = "Pour les deux combattants";
-        objective_title_div.innerHTML = "Même objectif pour les deux combattants : " + objective["name"];
+        objective_title_div.innerHTML = "<span class='objective_type'>Même objectif pour les deux combattants&nbsp</span><span class='objective_name'>" + objective["name"] + "</span>";
     }
     else
     {
@@ -79,11 +79,11 @@ function getObjective()
     }
 
     let objective_description_div = document.querySelector("#objective_description");
-    objective_description_div.style.display = "block";
+    objective_description_div.style.display = "flex";
     objective_description_div.innerHTML = objective["description"];
 
     document.querySelector("#get_objective_button").style.display = "none";
-    document.querySelector("#ok_button").style.display = "block";
+    document.querySelector("#ok_button").style.display = "flex";
 }
 
 function needOtherObjective()
@@ -106,7 +106,7 @@ function validateObjective()
         document.querySelector("#opponent_title").innerHTML = "Premier combattant";
         clearObjectiveDisplay();
     }
-    document.querySelector("#get_objective_button").style.display = "block";
+    document.querySelector("#get_objective_button").style.display = "flex";
 }
 
 function getCompatibleObjective(first_objective)
