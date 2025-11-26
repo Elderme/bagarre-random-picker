@@ -20,12 +20,12 @@
         "type": "objective"
     },
     {
-        "name": "Halben schwert !",
+        "name": "Halben schwert ! (OU Pas d'estoc)",
         "description": "Terminer en demie-épée.",
         "type": "objective"
     },
     {
-        "name": "Winden !",
+        "name": "Winden ! (OU Toucher en gardant le liage)",
         "description": "Toucher depuis un winden en gardant le liage.",
         "type": "objective"
     },
@@ -40,12 +40,12 @@
         "type": "shared"
     },
     {
-        "name": "Durchwechseln / Zucken !",
+        "name": "Durchwechseln / Zucken ! (OU Touche du faux tranchant)",
         "description": "(Douche-vaisselle!) Toucher à la suite d'un Durchwechseln ou un Zucken.",
         "type": "objective"
     },
     {
-        "name": "Mutieren / Duplieren !",
+        "name": "Mutieren / Duplieren ! (OU Toucher en gardant le liage)",
         "description": "Toucher à la suite d'un Mutieren ou un Duplieren.",
         "type": "objective"
     },
