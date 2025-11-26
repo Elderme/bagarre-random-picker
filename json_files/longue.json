@@ -1,37 +1,82 @@
 [
     {
-        "name": "Winden",
-        "type": "objective"
-    },
-    {
-        "name": "Durchwechseln, zucken",
-        "description": "douche-vaisselle !",
-        "type": "objective"
-    },
-    {
-        "name": "Maximum 3 pas",
-        "description": "Pas plus de 3 pas après le premier liage.",
+        "name": "Pas de longue pointe !",
+        "description": "Interdiction de se poster en longue pointe dans le Zufechten (approche).",
         "type": "constraint"
     },
     {
-        "name": "Pas de longue pointe",
+        "name": "Ringen !",
+        "description": "Terminer sur une entrée en lutte ou jeu court.",
+        "type": "objective"
+    },
+    {
+        "name": "Schwert nemen !",
+        "description": "Désarmement ou saisie de lame.",
+        "type": "objective"
+    },
+    {
+        "name": "Stich !",
+        "description": "Réaliser un estoc.",
+        "type": "objective"
+    },
+    {
+        "name": "Halben schwert !",
+        "description": "Terminer en demie-épée.",
+        "type": "objective"
+    },
+    {
+        "name": "Winden !",
+        "description": "Toucher depuis un winden en gardant le liage.",
+        "type": "objective"
+    },
+    {
+        "name": "3 pas et pas plus !",
+        "description": "A partir du premier liage, 3 pas au maximum dans tout l'échange.",
         "type": "constraint"
     },
     {
-        "name": "Entrée en lutte",
-        "type": "objective"
-    },
-    {
-        "name": "Demi-épée",
-        "type": "objective"
-    },
-    {
-        "name": "Désarmement",
-        "type": "objective"
-    },
-    {
-        "name": "Premier sang",
-        "description": "Fin du sparring dès la première touche",
+        "name": "Au Premier sang !",
+        "description": "Fin du sparring dès la première touche.",
         "type": "shared"
+    },
+    {
+        "name": "Durchwechseln / Zucken !",
+        "description": "(Douche-vaisselle!) Toucher à la suite d'un Durchwechseln ou un Zucken.",
+        "type": "objective"
+    },
+    {
+        "name": "Mutieren / Duplieren !",
+        "description": "Toucher à la suite d'un Mutieren ou un Duplieren.",
+        "type": "objective"
+    },
+    {
+        "name": "Vier hangen ! (les 4 suspensions)",
+        "description": "Passer tout l'échange en Ochs (boeuf) et Pflug (charrue).",
+        "type": "constraint"
+    },
+    {
+        "name": "Versetzen ! (parade d'escrimeur commun)",
+        "description": "Parade simples seulement, la pointe en l'air.",
+        "type": "constraint"
+    },
+    {
+        "name": "Kurtz schneid !",
+        "description": "Toucher avec le court/faux tranchant.",
+        "type": "objective"
+    },
+    {
+        "name": "Pas de bras, pas de chocolat !",
+        "description": "Les touches aux mains et bras ne comptent pas.",
+        "type": "shared"
+    },
+    {
+        "name": "Pas d'estoc !",
+        "description": "Tailles et entailles seulement.",
+        "type": "constraint"
+    },
+    {
+        "name": "Premier contact !",
+        "description": "Terminer l'échange sur une touche sans liage préalable.",
+        "type": "objective"
     }
 ]
